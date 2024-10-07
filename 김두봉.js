@@ -5,9 +5,9 @@ export async function dooBong(increment) {
   for(let k=0; k<100; k++)
     promises.push(  
     setInterval(() => {
-      for(let i=0; i<100; i++) {
+      // for(let i=0; i<100; i++) {
         increment();
-      }
+      // }
     },150) 
   );
   
