@@ -1,13 +1,10 @@
-<<<<<<< HEAD
 import{sujeong} from "./강수정.js"
-=======
 import { dooBong } from "./김두봉.js";
 import { khm } from "./김현묵.js";
 import { 이현우 } from "./이현우.js";
 import { jiwhan } from "./박지환.js";
 import { yeji } from "./임예지.js";
 
->>>>>>> 73f3b1679cb1f251c86c858fd61e3e047384f0f8
 
 function myNameVS(teamNames, teamFunctions) {
   const counts = {};
@@ -50,11 +47,7 @@ function myNameVS(teamNames, teamFunctions) {
   });
 }
 
-<<<<<<< HEAD
-myNameVS(['강수정'],[sujeong]);
-=======
 
 
 // myNameVS 실행
-myNameVS(["김두봉", "김현묵", "이현우", "박지환", "임예지"], [dooBong, khm, 이현우, jiwhan, yeji]);
->>>>>>> 73f3b1679cb1f251c86c858fd61e3e047384f0f8
+myNameVS(["김두봉", "김현묵", "이현우", "박지환", "임예지", "강수정"], [dooBong, khm, 이현우, jiwhan, yeji, sujeong]);
