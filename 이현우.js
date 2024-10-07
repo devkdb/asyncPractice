@@ -3,5 +3,5 @@ export async function 이현우(increment) {
     for(let i=0; i<100; i++) {
       increment();
     }
-  },100);
+  },150);
 }
