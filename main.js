@@ -2,6 +2,7 @@ import { dooBong } from "./김두봉.js";
 import { khm } from "./김현묵.js";
 import { 이현우 } from "./이현우.js";
 import { jiwhan } from "./박지환.js";
+import { yeji } from "./임예지.js";
 
 
 function myNameVS(teamNames, teamFunctions) {
@@ -45,8 +46,7 @@ function myNameVS(teamNames, teamFunctions) {
   });
 }
 
-<<<<<<< HEAD
-=======
+
+
 // myNameVS 실행
-myNameVS(["김두봉", "김현묵", "이현우", "박지환"], [dooBong, khm, 이현우, jiwhan]);
->>>>>>> 782aba74cf77683deed6e221c1f6b045f64ca153
+myNameVS(["김두봉", "김현묵", "이현우", "박지환", "임예지"], [dooBong, khm, 이현우, jiwhan, yeji]);
