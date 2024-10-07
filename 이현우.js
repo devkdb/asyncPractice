@@ -1,7 +1,16 @@
 export async function 이현우(increment) {
-  return await setInterval(() => {
-    for(let i=0; i<100; i++) {
-      increment();
-    }
-  },150);
+  const MAX_CNT = 2000000;
+
+  async function call() {
+    return await new Promise((task) => {
+      setTimeout(() => {
+        increment();
+        task();
+      }, 150);
+    });
+  }
+
+  const task = Array.from({ length: MAX_CNT }, call);
+  await Promise.all(task);
 }
+
