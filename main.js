@@ -5,10 +5,7 @@ import { 이현우 } from "./이현우.js";
 import { jiwhan } from "./박지환.js";
 import { yeji } from "./임예지.js";
 
-<<<<<<< HEAD
-=======
->>>>>>> 73f3b1679cb1f251c86c858fd61e3e047384f0f8
-
+/////
 >>>>>>> 0421a2006df5d82652d34891c25f4a53ae19c56e
 function myNameVS(teamNames, teamFunctions) {
   const counts = {};
