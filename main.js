@@ -1,6 +1,8 @@
 import { dooBong } from "./김두봉.js";
 import { khm } from "./김현묵.js";
 import { 이현우 } from "./이현우.js";
+import { jiwhan } from "./박지환.js";
+
 
 function myNameVS(teamNames, teamFunctions) {
   const counts = {};
@@ -44,4 +46,4 @@ function myNameVS(teamNames, teamFunctions) {
 }
 
 // myNameVS 실행
-myNameVS(["김두봉", "김현묵", "이현우"], [dooBong, khm, 이현우]);
+myNameVS(["김두봉", "김현묵", "이현우", "박지환"], [dooBong, khm, 이현우, jiwhan]);
