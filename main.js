@@ -1,3 +1,5 @@
+import{sujeong} from "./강수정.js"
+
 function myNameVS(teamNames, teamFunctions) {
   const counts = {};
   let stop = false;
@@ -38,3 +40,5 @@ function myNameVS(teamNames, teamFunctions) {
     console.log(`승자는 ${winner} 님입니다!`);
   });
 }
+
+myNameVS(['강수정'],[sujeong]);
