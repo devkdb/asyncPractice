@@ -1,3 +1,5 @@
+import { dooBong } from "./김두봉.js";
+
 function myNameVS(teamNames, teamFunctions) {
   const counts = {};
   let stop = false;
