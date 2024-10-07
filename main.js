@@ -38,3 +38,4 @@ function myNameVS(teamNames, teamFunctions) {
     console.log(`승자는 ${winner} 님입니다!`);
   });
 }
+
