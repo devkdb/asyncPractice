@@ -27,4 +27,4 @@ export function Jinhan(increment) {
   for (let i = 1; i <= 100; i++) {increment();}for (let i = 1; i <= 100; i++) {increment();}
 }
 
-//
+//123123
